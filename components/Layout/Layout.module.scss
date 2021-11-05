@@ -1,0 +1,13 @@
+@import "styles/variables.scss";
+$circle-size: 70rem;
+
+.Circle {    
+    position: absolute;
+    bottom: 30%;
+    right: 30%;
+    width: $circle-size;
+    height: $circle-size;
+    background-color: $--dark-lightElement;
+    z-index: -1;
+    border-radius: 50%;
+}

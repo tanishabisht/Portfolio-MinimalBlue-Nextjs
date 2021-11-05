@@ -1,11 +1,11 @@
-import Navbar from './Navbar'
-import Footer from './Footer'
-import classes from './Layout.module.css'
+import { Navbar, Footer } from '../index'
+import style from './Layout.module.scss'
 
 const Layout = ({children}) => {
     return (
-        <div className={classes.Container}>
+        <div>
             <Navbar/>
+            <div className={style.Circle}></div>
             {children}
             <Footer/>
         </div>
