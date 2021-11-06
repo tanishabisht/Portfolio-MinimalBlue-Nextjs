@@ -1,5 +1,4 @@
 import style from './Tech.module.scss'
-import Image from 'next/image'
 import { stacks } from '../../../content/home'
 
 const Tech = () => {

@@ -1,20 +1,22 @@
 import Head from 'next/head'
-import { HeroSection, AboutSection, TechSection } from '../components'
-// import styles from '../styles/Home.module.css'
+import { HeroSection, AboutSection, TechSection, ExperienceSection } from '../components'
+
 
 const Home = () => {
   return (
     <>
       <Head>
-        <title>Home</title>
+        <title>Tanisha Bisht</title>
       </Head>
       <div>
         <HeroSection />
         <AboutSection />
         <TechSection />
+        <ExperienceSection />
       </div>
     </>
   )
 }
+
 
 export default Home

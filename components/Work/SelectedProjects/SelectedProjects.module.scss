@@ -1,0 +1,62 @@
+@import "styles/variables.scss";
+
+.Container {
+    margin: $--margin-section 0;
+}
+.Header {
+    font-size: $--header-style;
+    margin-bottom: $--padding-sm;
+    color: $--dark-heading;
+}
+
+
+.Card {
+    background-color: $--dark-darkElement;
+    margin: 2rem 0;
+    padding: 3rem;
+    border-radius: $--card-radius;
+    background-repeat: no-repeat;
+    &.Card1 {
+        background-image: url("../../../public/proj-lunarOps.png");
+        background-position: 300px 50%;
+        background-size: 600px;
+    }
+    &.Card2 {
+        background-image: url("../../../public/proj-eureka.png");
+        background-position: 300px 70%;
+        background-size: 600px;
+    }
+
+    .Number {
+        font-size: 5rem;
+        font-weight: 700;
+        margin-bottom: 3rem;
+        color: $--dark-lightElement;
+        transition: transform 200ms ease 0s;
+        transform: translateX(0px) translateY(0px) translateZ(0px);
+    }
+    .Content {
+        transition: transform 200ms ease 0s;
+        transform: translateX(0px) translateY(0px) translateZ(0px);
+        .Links a {
+            margin-right: 1rem;
+            color: $--dark-lightElement;
+        }
+    }    
+
+    transition: all 0.2s ease 0s, transform 200ms ease 0s;
+    transform: scaleX(1) scaleY(1);
+    &:hover {
+        transition: all 0.2s ease 0s, transform 200ms ease 0s;
+        transform: scaleX(0.95) scaleY(0.95);
+        .Number {
+            transition: transform 200ms ease 0s;
+            transform: translateX(10px) translateY(10px) translateZ(0px);
+        }
+        .Content {
+            transition: transform 200ms ease 0s;
+            transform: translateX(20px) translateY(-20px) translateZ(0px);
+        }
+    }
+}
+
