@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import { SelectedProjects } from '../components'
+import { SelectedProjects, Projects } from '../components'
 
 
 const Works = () => {
@@ -10,6 +10,7 @@ const Works = () => {
       </Head>
       <div>
         <SelectedProjects />
+        <Projects />
       </div>
     </>
   )

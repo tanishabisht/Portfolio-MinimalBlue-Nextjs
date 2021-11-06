@@ -1,6 +1,4 @@
 import style from './SelectedProjects.module.scss'
-import { selectedProjects } from '../../../content/projects'
-import Image from 'next/image'
 
 const SelectedProjects = () => {
   return (

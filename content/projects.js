@@ -27,7 +27,46 @@ const selectedProjects = [
 ]
 
 
-const otherProjects = {
+const top6Projects = [
+    {
+        name:'Jishnu Portfolio',
+        desc:'A functional Twitter Clone with Auth System and CRUD API. Deployment in Progress.',
+        ghLink:'/',
+        stacks:['reactjs', 'firebase-realtime'],
+        isFav: false
+    },
+    {
+        name:'SRM ELab print report',
+        desc:'A functional Twitter Clone with Auth System and CRUD API. Deployment in Progress.',
+        ghLink:'/',
+        stacks:['reactjs', 'firebase-auth'],
+        isFav: true
+    },
+    {
+        name:'react state management',
+        desc:'A functional Twitter Clone with Auth System and CRUD API. Deployment in Progress.',
+        ghLink:'/',
+        stacks:['reactjs'],
+        isFav: false
+    },
+    {
+        name:'Angular',
+        desc:'A functional Twitter Clone with Auth System and CRUD API. Deployment in Progress.',
+        ghLink:'/',
+        stacks:['reactjs'],
+        isFav: true
+    },
+    {
+        name:'E-Commerce APIs',
+        desc:'A functional Twitter Clone with Auth System and CRUD API. Deployment in Progress.',
+        ghLink:'/',
+        stacks:['reactjs'],
+        isFav: false
+    }
+]
+
+
+const allOtherProjects = {
     needsEditing: [
         {
             name:'EdPoint',
@@ -254,7 +293,7 @@ const otherProjects = {
     ],
     soon: [
         {
-            name:'Blogger Diarie',
+            name:'Blogger Diaries',
             desc:'A functional Twitter Clone with Auth System and CRUD API. Deployment in Progress.',
             ghLink:'/',
             stacks:['reactjs'],
@@ -268,7 +307,7 @@ const otherProjects = {
             isFav: false
         },
         {
-            name:'mommy portfoli',
+            name:'mommy portfolio',
             desc:'A functional Twitter Clone with Auth System and CRUD API. Deployment in Progress.',
             ghLink:'/',
             stacks:['reactjs'],
@@ -304,3 +343,7 @@ const otherProjectsDummy = [
         isFav: false
     }
 ]
+
+
+
+export {developmentProcess, selectedProjects, top6Projects, allOtherProjects}

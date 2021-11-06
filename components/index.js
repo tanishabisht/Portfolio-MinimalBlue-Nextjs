@@ -10,5 +10,5 @@ export { default as ExperienceSection } from './Home/ExperienceSection/Experienc
 
 
 export { default as SelectedProjects } from './Work/SelectedProjects/SelectedProjects'
-export { default as AllProjects } from './Work/AllProjects/AllProjects'
+export { default as Projects } from './Work/Projects/Projects'
 export { default as Process } from './Work/Process/Process'
