@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import { SelectedProjects, Projects } from '../components'
+import { SelectedProjects, Projects, Process } from '../components'
 
 
 const Works = () => {
@@ -11,6 +11,7 @@ const Works = () => {
       <div>
         <SelectedProjects />
         <Projects />
+        <Process />
       </div>
     </>
   )

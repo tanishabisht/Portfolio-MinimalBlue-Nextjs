@@ -1,0 +1,55 @@
+@import "styles/variables.scss";
+
+
+.Container {
+    margin: $--margin-section 0;
+}
+.Header {
+    font-size: $--header-style;
+    margin-bottom: $--padding-sm;
+    color: $--dark-heading;
+}
+.Content {    
+    margin-bottom: 5rem;
+    span {
+        color: $--main-color-0;
+        font-weight: 600;
+    }
+}
+
+.Blog {
+    margin: 3rem 0;
+    h1 {
+        color: $--dark-textMain;
+    }
+    .Date {
+        margin-top: 0.5rem;
+        overflow: hidden;
+        padding-left: 5rem;
+        color: $--dark-subText;
+        &:before {
+            background-color: $--dark-subText;
+            content: "";
+            display: inline-block;
+            height: 1.1px;
+            position: relative;
+            vertical-align: middle;
+            width: 50%;
+            right: 0.5rem;
+            margin-left: -50%;
+        }
+    }
+    &:hover {
+        cursor: pointer;
+        h1 {
+            color: $--main-color--1;
+        }
+        .Date {
+            color: $--main-color-0;
+            &:before {
+                background-color: $--main-color--1;
+            }
+        }
+    }
+}
+

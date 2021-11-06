@@ -1,8 +1,8 @@
 const developmentProcess = [
-    {phase:'Understand', tasks:['collect info', 'personas', 'set goals', 'mood board']},
-    {phase:'Design Phase', tasks:['web flow', 'low fidelity', 'high fidelity', 'user testing']},
-    {phase:'Build Phase', tasks:['frontend', 'backend', 'integration', 'optimization']},
-    {phase:'Launch Phase', tasks:['deploy', 'explain client']}
+    {num:"01", phase:'Understand', tasks:['collect info', 'personas', 'set goals', 'mood board']},
+    {num:"02", phase:'Design Phase', tasks:['web flow', 'low fidelity', 'high fidelity', 'user testing']},
+    {num:"03", phase:'Build Phase', tasks:['frontend', 'backend', 'integration', 'optimization']},
+    {num:"04", phase:'Launch Phase', tasks:['deploy', 'explain client']}
 ]
 
 
