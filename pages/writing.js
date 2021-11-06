@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import style from "../styles/Writing.module.scss"
 
 
 const writingContent = [
@@ -17,14 +16,14 @@ const Writing = () => {
             <Head>
                 <title>Tanisha Bisht | Writing</title>
             </Head>
-            <div className={style.Container}>
-                <h1 className={style.Header}>Some of my writings</h1>
-                <p className={style.Content}>Designing for me is evergreen and exciting because I'm constantly challenging my own creativity — recently, I've been particularly interested in <span>accessibility</span> and <span>user-centered processes</span>.</p>
+            <div className="container">
+                <h1 className="header">Some of my writings</h1>
+                <p className="writingContent">Designing for me is evergreen and exciting because I'm constantly challenging my own creativity — recently, I've been particularly interested in <span>accessibility</span> and <span>user-centered processes</span>.</p>
                 {writingContent.map(e => (
-                    <div className={style.Blog}>
+                    <div className="writingBlog">
                         <a href="/blog">
-                            <h1>{e.name}</h1>
-                            <p className={style.Date}>{e.date}</p>
+                            <h1 className="writingBlog__name">{e.name}</h1>
+                            <p className="writingBlog__date">{e.date}</p>
                         </a>
                     </div>
                 ))}

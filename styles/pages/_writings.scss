@@ -1,15 +1,4 @@
-@import "styles/variables.scss";
-
-
-.Container {
-    margin: $--margin-section 0;
-}
-.Header {
-    font-size: $--header-style;
-    margin-bottom: $--padding-sm;
-    color: $--dark-heading;
-}
-.Content {    
+.writingContent {    
     margin-bottom: 5rem;
     span {
         color: $--main-color-0;
@@ -17,12 +6,12 @@
     }
 }
 
-.Blog {
+.writingBlog {
     margin: 3rem 0;
-    h1 {
+    &__name {
         color: $--dark-textMain;
     }
-    .Date {
+    &__date {
         margin-top: 0.5rem;
         overflow: hidden;
         padding-left: 5rem;
@@ -44,7 +33,7 @@
         h1 {
             color: $--main-color--1;
         }
-        .Date {
+        .writingBlog__date {
             color: $--main-color-0;
             &:before {
                 background-color: $--main-color--1;
@@ -52,4 +41,3 @@
         }
     }
 }
-

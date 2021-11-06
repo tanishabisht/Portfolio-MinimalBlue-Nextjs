@@ -1,6 +1,5 @@
 import { useState } from 'react'
 import { allOtherProjects } from '../content/projects'
-import style from '../styles/Projects.module.scss'
 
 const Projects = () => {
 
@@ -8,22 +7,22 @@ const Projects = () => {
     const onSelectCategory = (e) => setCategory(e.target.textContent)
 
     return (
-        <div className={style.Container}>
-            <h1 className={style.Header}>Some more projects</h1>
+        <div className="container">
+            <h1 className="header">Some more projects</h1>
 
-            <div className={style.CategoriesContainer}>
+            <div className="categories">
                 {Object.keys(allOtherProjects).map((e,k) => (
-                    <span className={category===e?style.Active:null} onClick={onSelectCategory} key={k}>{e}</span>
+                    <span className={`categories__category ${category===e ? "categories__category--active" : null}`} onClick={onSelectCategory} key={k}>{e}</span>
                 ))}
             </div>
 
-            <div className={style.Flexbox}>
+            <div className="projectsGrid">
                 {allOtherProjects[category].map(e => (
-                    <a className={`${style.Card} ${e.isFav===true?style.Card1:null}`} href={e.ghLink} key={e.name}>
+                    <a className={`projectsGrid__card ${e.isFav===true?"projectsGrid__card--fav":null}`} href={e.ghLink} key={e.name}>
                         {e.isFav===true?<i className="fa fa-heart"></i>:null}
-                        <h3>{e.name}</h3>
-                        <p>{e.desc}</p>
-                        <div className={style.Stacks}>
+                        <h3 className="projectsGrid__card__name">{e.name}</h3>
+                        <p className="projectsGrid__card__desc">{e.desc}</p>
+                        <div className="projectsGrid__card__stacks">
                             {e.stacks.map((s,k) => <span key={k}>{s}</span>)}
                         </div>
                     </a>

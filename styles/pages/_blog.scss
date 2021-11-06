@@ -1,0 +1,38 @@
+.blogContainer {
+    margin: 5rem;
+
+    &__header {
+        text-align: center;
+    }
+
+    &__credits {
+        border: 2px dashed $--dark-lightElement;
+        padding: 1rem;
+        text-align: center;
+        margin: 2rem 0;
+    }
+
+    &__content {
+        padding: 2rem 3rem;
+        position: relative;
+        p {
+            margin-bottom: 2rem;
+        }
+        .blogDesc {
+            margin: 3rem 0;
+            &__number {
+                position: absolute;
+                top: 0px;
+                left: 0px;
+                font-size: 10rem;
+                font-weight: 700;
+                color: #2C2C2C;
+                z-index: -1;
+            }
+            &__content {
+                border-left: 2px solid $--dark-textMain;
+                padding-left: 1rem;
+            }
+        }
+    }
+}
