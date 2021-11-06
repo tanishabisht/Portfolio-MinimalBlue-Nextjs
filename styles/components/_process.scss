@@ -1,0 +1,32 @@
+.processContainer {
+    &__content {
+        margin-bottom: $--padding-sm;
+        span {
+            color: $--main-color-0;
+            font-weight: 600;
+        }
+    }    
+    .processGrid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        @media (max-width: 880px) {grid-template-columns: 1fr 1fr;}
+        @media (max-width: 550px) {grid-template-columns: 1fr;}    
+        &__card {
+            background-color: $--dark-darkElement;
+            padding: 2rem 1.4rem;
+            margin: 0.5rem;
+            position: relative;
+            &__number {
+                position: absolute;
+                top: 0px;
+                left: 10px;
+                font-size: 4rem;
+                font-weight: 700;
+                color: #5d5d5d69;
+            }
+            &__phase {
+                color: $--dark-heading;
+            }
+        }
+    }
+}

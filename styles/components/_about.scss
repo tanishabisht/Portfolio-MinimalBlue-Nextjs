@@ -1,8 +1,6 @@
-@import "styles/variables.scss";
-
-.Container {
+.aboutContainer {
     margin: $--margin-section 0;
-    .Row {
+    &__row {
         display: flex;
         margin: $--padding-lg 0;
         gap: $--padding-lg;
@@ -12,7 +10,7 @@
             margin: 3rem 0;
         }
     }
-    .Col {
+    &__col {
         flex: 1;
         span {
             color: $--main-color-0;

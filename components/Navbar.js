@@ -1,11 +1,10 @@
 import Link from 'next/link'
 import Image from 'next/image'
-import style from './Navbar.module.scss'
 
 const Navbar = () => {
     return (
-        <nav className={style.Container}>
-            <div className={style.Logo}>
+        <nav className="nav">
+            <div className="nav__logo">
                 <Link href='/'><a><Image src='/favicon.ico' width={50} height={50} /></a></Link>
                 <span>TANISHA</span>
             </div>

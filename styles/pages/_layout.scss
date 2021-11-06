@@ -1,14 +1,6 @@
-@import "styles/variables.scss";
 $circle-size: 70rem;
 
-.Container {
-    padding: 0 $--padding-lg;
-    @media (max-width: 700px) {
-        padding: 0 $--padding-sm;
-    }
-}
-
-.Circle {    
+.circleBg {    
     position: absolute;
     bottom: 30%;
     right: 30%;
@@ -17,4 +9,11 @@ $circle-size: 70rem;
     background-color: $--dark-lightElement;
     z-index: -1;
     border-radius: 50%;
+}
+
+.layoutContainer {
+    padding: 0 $--padding-lg;
+    @media (max-width: 700px) {
+        padding: 0 $--padding-sm;
+    }
 }

@@ -1,14 +1,13 @@
-import { Navbar, Footer } from '../index'
+import { Navbar, Footer } from './'
 import { useRouter } from 'next/router'
-import style from './Layout.module.scss'
 
 const Layout = ({children}) => {
     const router = useRouter()
     return (
         <>
-            {router.pathname!=="/blog" ? <div className={style.Circle}></div> : null}            
+            {router.pathname!=="/blog" ? <div className="circleBg"></div> : null}            
             <Navbar/>
-            <div className={style.Container}>
+            <div className="layoutContainer">
                 {children}
             </div>
             <Footer/>

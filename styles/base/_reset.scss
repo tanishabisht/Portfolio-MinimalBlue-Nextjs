@@ -1,0 +1,16 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: $--dark-bg;
+    color: $--dark-textMain;
+    font-family: 'Montserrat', sans-serif;
+    padding: $--padding-sm;
+}
+
+a {
+    text-decoration: none;
+    color: currentColor;
+}

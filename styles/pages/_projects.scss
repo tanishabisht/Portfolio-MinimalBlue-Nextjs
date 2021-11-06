@@ -1,47 +1,31 @@
-@import "styles/variables.scss";
-
-
-.Container {
-    margin: $--margin-section 0;
-}
-.Header {
-    font-size: $--header-style;
-    margin-bottom: $--padding-sm;
-    color: $--dark-heading;
-}
-
-
-.Flexbox {
+.projectsGrid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    @media (max-width: 880px) {
-        grid-template-columns: 1fr 1fr;
-    }
-    @media (max-width: 550px) {
-        grid-template-columns: 1fr;
-    }
-    .Card {
+    @media (max-width: 880px) {grid-template-columns: 1fr 1fr;}
+    @media (max-width: 550px) {grid-template-columns: 1fr;}
+
+    &__card {
         background-color: $--dark-darkElement;
         border: 3px solid $--dark-darkElement;
         padding: 1.5rem;
         margin: 0.5rem;
         display: grid;
         grid-template-rows: auto 1fr auto;
-        h3 {
+        position: relative;
+        &__name {
             color: $--dark-textMain;
         }
-        p {
+        &__desc {
             color: $--dark-subText;
             margin-bottom: 2rem;
         }
-        .Stacks {
+        &__stacks {
             color: $--dark-lightElement;
             font-size: 12px;
             span {
                 margin-right: 1rem;
             }
         }
-        position: relative;
         &:hover {
             border: 3px solid $--dark-textMain;
             cursor: pointer;
@@ -55,48 +39,41 @@
                 transform: rotate(45deg);
             }
         }
-    }
 
-
-    .Card1 {
-        background-color: $--main-color-0;
-        border: 3px solid $--main-color-0;
-        color: $--dark-textMain;
-        h3, p, .Stacks {
+        &--fav {
+            background-color: $--main-color-0;
+            border: 3px solid $--main-color-0;
             color: $--dark-textMain;
-        }
-        i {
-            color: $--main-color-1;
-            position: absolute;
-            top: 10px;
-            right: 10px;
-            font-size: 1.2rem;
-        }
-        &:hover {
-            border: 3px solid $--main-color-1;
-            i {
-                display: none;
+            .projectsGrid__card {
+                &__name, &__desc, &__stacks {
+                    color: $--dark-textMain;
+                }
             }
-            &:after {
-                border-bottom-color: $--main-color-1;
+            i {
+                color: $--main-color-1;
+                position: absolute;
+                top: 10px;
+                right: 10px;
+                font-size: 1.2rem;
+            }
+            &:hover {
+                border: 3px solid $--main-color-1;
+                i {
+                    display: none;
+                }
+                &:after {
+                    border-bottom-color: $--main-color-1;
+                }
             }
         }
     }
 
-
-    .CardLast {
+    &__cardLast {
         background-color: transparent;
         border: 3px solid $--main-color-0;
         color: $--dark-textMain;
         h3 {
             color: $--main-color-0;
-        }
-        i {
-            color: $--main-color-1;
-            position: absolute;
-            top: 10px;
-            right: 10px;
-            font-size: 1.2rem;
         }
         &:hover {
             background-color: $--main-color-0;
