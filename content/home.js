@@ -5,14 +5,17 @@ const heroContent = [
 ]
 
 const stacks = [
-    'javascript', 'python', 'cpp', 'c',
-    'git', 'github', 'bitbucket', 'linux',
-    'nodejs', 'expressjs', 'flask', 'firebase', 'mongodb', 'mongoose',
-    'reactjs', 'nextjs', 'angular', 'hooks', 'redux',
-    'html', 'css', 'sass', 'bootstrap', 'materialize', 'tailwind_css', 'styled_components',
-    'beautiful_soup', 'selenium', 'tkinter',
-    'vscode',
-    'adobexd', 'figma', 'adobephotoshop'
+    {name:"javascript", icon:"js-square"}, {name:"python", icon:"python"}, {name:"cpp", icon:""}, {name:"c", icon:""}, 
+    {name:"git", icon:"git"}, {name:"github", icon:"github"}, {name:"bitbucket", icon:"bitbucket"}, {name:"linux", icon:"linux"},
+    {name:"nodejs", icon:"node"},
+    {name:"expressjs", icon:""}, {name:"flask", icon:""}, {name:"firebase", icon:""}, {name:"mongodb", icon:""}, {name:"mongoose", icon:""}, 
+    {name:"reactjs", icon:"react"},
+    {name:"nextjs", icon:""}, {name:"angular", icon:"angular"}, {name:"hooks", icon:""},
+    {name:"html", icon:"html5"}, {name:"css", icon:"css3-alt"}, {name:"css modules", icon:""}, {name:"sass", icon:"sass"}, 
+    {name:"styled components", icon:""}, {name:"bootstrap", icon:"bootstrap"}, {name:"materialize", icon:""}, {name:"tailwind css", icon:""},    
+    {name:"beautiful soup", icon:""}, {name:"selenium", icon:""}, {name:"tkinter", icon:""}, 
+    {name:"vscode", icon:""},
+    {name:"xd", icon:""}, {name:"figma", icon:"figma"}, {name:"photoshop", icon:""}
 ]
 
 const techTopics = [
@@ -36,3 +39,5 @@ const socialLinks = [
     // {to:'npx', link:''},
     {to:'instagram', link:'https://www.instagram.com/tanisha.bisht_/'},
 ]
+
+export {heroContent, stacks, techTopics, experience, socialLinks}

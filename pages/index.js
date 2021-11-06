@@ -1,6 +1,6 @@
-import Link from 'next/link'
 import Head from 'next/head'
-import styles from '../styles/Home.module.css'
+import { HeroSection, AboutSection, TechSection } from '../components'
+// import styles from '../styles/Home.module.css'
 
 const Home = () => {
   return (
@@ -9,7 +9,9 @@ const Home = () => {
         <title>Home</title>
       </Head>
       <div>
-        <h2 className={styles.title}>HOME PAGE</h2>
+        <HeroSection />
+        <AboutSection />
+        <TechSection />
       </div>
     </>
   )

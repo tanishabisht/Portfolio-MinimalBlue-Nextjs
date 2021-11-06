@@ -3,12 +3,14 @@ import style from './Layout.module.scss'
 
 const Layout = ({children}) => {
     return (
-        <div>
-            <Navbar/>
+        <>
             <div className={style.Circle}></div>
-            {children}
+            <Navbar/>
+            <div className={style.Container}>
+                {children}
+            </div>
             <Footer/>
-        </div>
+        </>
     )
 }
 
