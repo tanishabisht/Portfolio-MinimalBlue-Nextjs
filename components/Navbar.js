@@ -19,7 +19,7 @@ const Navbar = () => {
             <Link href='/works'><a>works</a></Link>
             <Link href='https://github.com/tanishabisht'><a target="_blank">github</a></Link>
             <span onClick={changeTheme} className="nav__themeToggle">
-                {theme==="light" ? <i class="fas fa-sun"></i> : <i class="fas fa-moon"></i>}
+                {theme==="light" ? <i className="fas fa-sun"></i> : <i className="fas fa-moon"></i>}
             </span>
         </nav>
     )

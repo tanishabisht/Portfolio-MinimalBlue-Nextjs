@@ -9,6 +9,9 @@
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
+        @media (max-width: 800px) {
+            justify-content: space-around;
+        }
         &__tooltip {
             position: relative;
             width:var(--icon-bg-size);
@@ -67,69 +70,3 @@
         }
     }
 }
-
-
-
-// .techContainer {
-//     &__socialHandles {
-//         display:flex;
-//         flex-wrap: wrap;
-//         justify-content: center;
-//         align-items: center;
-//         &__tooltip {
-//             position: relative;
-//             width:var(--icon-bg-size);
-//             height:var(--icon-bg-size);
-//             display:block;
-//             text-align:center;
-//             margin: 1rem 0.6rem;
-//             border-radius: 50%;
-//             padding: var(--circle-padding);
-//             box-sizing: border-box;
-//             text-decoration:none;
-//             box-shadow: 0 10px 15px rgba(0,0,0,0.1);
-//             background: linear-gradient(0deg, var(--icon-bg-2), var(--icon-bg-1));
-//             transition: .5s;    
-//             &:hover {
-//                 box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-//                 text-decoration:none;
-//                 cursor: pointer;
-//             }    
-//             i {
-//                 width: 100%;
-//                 height:100%;
-//                 display:block;
-//                 background: linear-gradient(0deg, var(--icon-bg-1), var(--icon-bg-2));
-//                 border-radius: 50%;
-//                 line-height: calc(var(--icon-bg-size) - var(--circle-padding));
-//                 font-size:var(--icon-size);
-//                 color: var(--icon-color);
-//                 transition: .5s;
-//             }    
-//             &:before {
-//                 content: attr(data-text); 
-//                 position:absolute;
-//                 bottom:110%;
-//                 right: -40%;
-//                 width:80px;
-//                 padding:5px;
-//                 border-radius:10px;
-//                 background:var(--icon-bg-1);
-//                 color: var(--icon-color);
-//                 text-align:center;
-//                 font-size: 10px;
-//                 box-shadow: 0 0 10px rgba(0,0,0,0.2);
-//                 visibility: hidden;
-//                 opacity: 0;
-//                 transform: scale(0.5);
-//                 transition: 0.2s;
-//             }
-//             &:hover:before {
-//                 transform: scale(1);
-//                 display:block;
-//                 visibility: visible;
-//                 opacity: 1;
-//             }
-//         }
-//     }
-// }

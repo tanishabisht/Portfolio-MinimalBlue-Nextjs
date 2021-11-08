@@ -2,7 +2,7 @@
 const SelectedProjects = () => {
   return (
     <div className="container">
-        <h1 className="header selHeader">Selected from Collection</h1>
+        <h1 className="header selHeader">Selected from collection</h1>
 
         <div className="selCard selCard--one">
             <p className="selCard__number">01</p>

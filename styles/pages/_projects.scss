@@ -48,6 +48,8 @@
         &__stacks {
             color: var(--projCardSubText);
             font-size: 12px;
+            display: flex;
+            flex-wrap: wrap;
             span {
                 margin-right: 1rem;
             }

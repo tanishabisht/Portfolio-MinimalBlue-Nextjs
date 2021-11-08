@@ -19,8 +19,8 @@ const About = () => {
                     <h1>novelty . <span>working in a team .</span> creating beautiful memories along the journey</h1>
                 </div>
                 <div className="aboutContainer__col">
-                    <p className="aboutContainer__col__subHeading">My Qualities ...</p>
-                    <h1>Quick learner . Clean work . Collaborative . Novelty seeker</h1>
+                    <p className="aboutContainer__col__subHeading">My qualities ...</p>
+                    <h1>quick learner . clean work . collaborative . novelty seeker</h1>
                 </div>
             </div>
         </section>

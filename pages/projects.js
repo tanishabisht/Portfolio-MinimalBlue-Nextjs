@@ -18,7 +18,7 @@ const Projects = () => {
 
             <div className="projectsGrid">
                 {allOtherProjects[category].map(e => (
-                    <a className={`projectsGrid__card ${e.isFav===true?"projectsGrid__card--fav":null}`} href={e.ghLink} key={e.name}>
+                    <a target="__blank" className={`projectsGrid__card ${e.isFav===true?"projectsGrid__card--fav":null}`} href={e.ghLink} key={e.name}>
                         {e.isFav===true?<i className="fa fa-heart"></i>:null}
                         <h3 className="projectsGrid__card__name">{e.name}</h3>
                         <p className="projectsGrid__card__desc">{e.desc}</p>
