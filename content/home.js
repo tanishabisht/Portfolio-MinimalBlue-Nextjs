@@ -5,17 +5,17 @@ const heroContent = [
 ]
 
 const stacks = [
-    {name:"javascript", icon:"js-square"}, {name:"python", icon:"python"}, {name:"cpp", icon:""}, {name:"c", icon:""}, 
-    {name:"git", icon:"git"}, {name:"github", icon:"github"}, {name:"bitbucket", icon:"bitbucket"}, {name:"linux", icon:"linux"},
-    {name:"nodejs", icon:"node"},
-    {name:"expressjs", icon:""}, {name:"flask", icon:""}, {name:"firebase", icon:""}, {name:"mongodb", icon:""}, {name:"mongoose", icon:""}, 
-    {name:"reactjs", icon:"react"},
-    {name:"nextjs", icon:""}, {name:"angular", icon:"angular"}, {name:"hooks", icon:""},
-    {name:"html", icon:"html5"}, {name:"css", icon:"css3-alt"}, {name:"css modules", icon:""}, {name:"sass", icon:"sass"}, 
+    {name:"javascript", icon:"js-square", isFav:true}, {name:"python", icon:"python", isFav:true}, {name:"cpp", icon:"", isFav:false}, {name:"c", icon:"", isFav:false}, 
+    {name:"git", icon:"git", isFav:true}, {name:"github", icon:"github", isFav:true}, {name:"bitbucket", icon:"bitbucket", isFav:false}, {name:"linux", icon:"linux", isFav:false},
+    {name:"nodejs", icon:"node", isFav:true},
+    {name:"expressjs", icon:"", isFav:true}, {name:"flask", icon:"", isFav:false}, {name:"firebase", icon:"", isFav:false}, {name:"mongodb", icon:"", isFav:true}, {name:"mongoose", icon:"", isFav:true}, 
+    {name:"reactjs", icon:"react", isFav:true},
+    {name:"nextjs", icon:"", isFav:false}, {name:"angular", icon:"angular", isFav:false}, {name:"hooks", icon:"", isFav:true},
+    {name:"html", icon:"html5", isFav:true}, {name:"css", icon:"css3-alt", isFav:true}, {name:"css modules", icon:"", isFav:false}, {name:"sass", icon:"sass", isFav:false}, 
     {name:"styled components", icon:""}, {name:"bootstrap", icon:"bootstrap"}, {name:"materialize", icon:""}, {name:"tailwind css", icon:""},    
-    {name:"beautiful soup", icon:""}, {name:"selenium", icon:""}, {name:"tkinter", icon:""}, 
-    {name:"vscode", icon:""},
-    {name:"xd", icon:""}, {name:"figma", icon:"figma"}, {name:"photoshop", icon:""}
+    {name:"beautiful soup", icon:"", isFav:false}, {name:"selenium", icon:"", isFav:false}, {name:"tkinter", icon:"", isFav:false}, 
+    {name:"vscode", icon:"", isFav:true},
+    {name:"xd", icon:"", isFav:true}, {name:"figma", icon:"figma", isFav:false}, {name:"photoshop", icon:"", isFav:false}
 ]
 
 const techTopics = [

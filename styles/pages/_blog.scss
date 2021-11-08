@@ -6,7 +6,7 @@
     }
 
     &__credits {
-        border: 2px dashed $--dark-lightElement;
+        border: 2px dashed var(--dark-lightElement);
         padding: 1rem;
         text-align: center;
         margin: 2rem 0;
@@ -30,7 +30,7 @@
                 z-index: -1;
             }
             &__content {
-                border-left: 2px solid $--dark-textMain;
+                border-left: 2px solid var(--dark-textMain);
                 padding-left: 1rem;
             }
         }

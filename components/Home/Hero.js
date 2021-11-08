@@ -1,7 +1,9 @@
 import Image from 'next/image'
+import { useTheme } from 'next-themes'
 
 
 const Hero = () => {
+    const { theme, setTheme } = useTheme()
     return (
         <section className="heroContainer">
             <div className="contentCol">
@@ -14,7 +16,11 @@ const Hero = () => {
                 </div>
             </div>
             <div className="imageCol">
-                <Image src='/dark_me.png' width={420} height={585} objectFit="cover"/>
+                {
+                    theme==="light" ? 
+                    <Image src='/light_me.png' width={420} height={585} objectFit="cover"/> :
+                    <Image src='/dark_me.png' width={420} height={585} objectFit="cover"/>
+                }
             </div>
         </section>
     )

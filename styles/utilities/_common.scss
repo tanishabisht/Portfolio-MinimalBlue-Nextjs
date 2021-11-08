@@ -1,9 +1,9 @@
 .container {
-    margin: $--margin-section 0;
+    margin: var(--margin-section) 0;
 }
 
 .header {
-    font-size: $--header-style;
-    margin-bottom: $--padding-sm;
-    color: $--dark-heading;
+    font-size: var(--header-style);
+    margin-bottom: var(--padding-sm);
+    color: var(--heading);
 }

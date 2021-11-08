@@ -12,9 +12,9 @@
         &__subheading {
             overflow: hidden;
             padding-left: 5rem;
-            color: $--dark-heading;
+            color: var(--heading);
             &:before {
-                background-color: $--dark-heading;
+                background-color:var(--heading);
                 content: "";
                 display: inline-block;
                 height: 1.1px;
@@ -28,27 +28,30 @@
 
         &__name {
             font-size: 4rem;
-            color: $--dark-heading;
+            color: var(--heading-first);
         }
 
         &__btns {
-            margin: $--padding-sm 0rem;
+            margin: 2rem 0rem;
+            button {
+                padding: 10px 20px;
+                margin-right: var(--padding-sm);
+                transition: 0.25s;
+                &:hover {
+                    cursor: pointer;
+                    box-shadow: inset 9rem 0 0 0 var(--primary-dark);
+                    color: var(--btn-hover-text);
+                }
+            }
             &__regular {
-                background-color: $--main-color-0;
-                padding: 5px 10px;
-                border: 2px solid $--main-color-1;
-                color: $--main-color--2;
-                margin-right: $--padding-sm;
+                background-color: var(--primary);
+                border: 1px solid var(--primary-dark);
+                color: var(--btn-regular-text);
             }
             &__outline {
                 background-color: transparent;
-                padding: 5px 10px;
-                border: 2px solid $--main-color-0;
-                color: $--main-color--2;
-                margin-right: $--padding-sm;
-            }
-            button:hover {
-                cursor: pointer;
+                border: 1px solid var(--primary-dark);
+                color: var(--btn-outline-text);
             }
         }
     }

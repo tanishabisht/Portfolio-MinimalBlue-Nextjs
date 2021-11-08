@@ -11,7 +11,7 @@ const Process = () => {
                 <div className="processGrid__card" key={e.phase}>
                     <p className="processGrid__card__number">{e.num}</p>
                     <h2 className="processGrid__card__phase">{e.phase}</h2>
-                    {e.tasks.map((t,k) => <p key={k}>{t}</p>)}
+                    {e.tasks.map((t,k) => <p className="processGrid__card__task" key={k}>{t}</p>)}
                 </div>
             ))}
         </div>

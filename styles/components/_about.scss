@@ -1,9 +1,9 @@
 .aboutContainer {
-    margin: $--margin-section 0;
+    margin: var(--margin-section) 0;
     &__row {
         display: flex;
-        margin: $--padding-lg 0;
-        gap: $--padding-lg;
+        margin: var(--padding-lg) 0;
+        gap: var(--padding-lg);
         @media (max-width: 700px) {
             flex-direction: column;
             gap: 3rem;
@@ -13,7 +13,10 @@
     &__col {
         flex: 1;
         span {
-            color: $--main-color-0;
+            color: var(--primary);
+        }
+        &__subHeading {
+            color: var(--heading);
         }
     }
 }

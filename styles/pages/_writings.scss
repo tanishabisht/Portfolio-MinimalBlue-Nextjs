@@ -1,7 +1,7 @@
 .writingContent {    
     margin-bottom: 5rem;
     span {
-        color: $--main-color-0;
+        color: var(--main-color-0);
         font-weight: 600;
     }
 }
@@ -9,15 +9,15 @@
 .writingBlog {
     margin: 3rem 0;
     &__name {
-        color: $--dark-textMain;
+        color: var(--dark-textMain);
     }
     &__date {
         margin-top: 0.5rem;
         overflow: hidden;
         padding-left: 5rem;
-        color: $--dark-subText;
+        color: var(--dark-subText);
         &:before {
-            background-color: $--dark-subText;
+            background-color: var(--dark-subText);
             content: "";
             display: inline-block;
             height: 1.1px;
@@ -31,12 +31,12 @@
     &:hover {
         cursor: pointer;
         h1 {
-            color: $--main-color--1;
+            color: var(--main-color--1);
         }
         .writingBlog__date {
-            color: $--main-color-0;
+            color: var(--main-color-0);
             &:before {
-                background-color: $--main-color--1;
+                background-color: var(--main-color--1);
             }
         }
     }

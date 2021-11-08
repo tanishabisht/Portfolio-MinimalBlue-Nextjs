@@ -2,23 +2,26 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     row-gap: 3rem;
-    margin: $--padding-lg 0;
+    margin: var(--padding-lg) 0;
     @media (max-width: 850px) {
         grid-template-columns: 1fr 1fr;
     }
     @media (max-width: 550px) {
         grid-template-columns: 1fr;
-        margin: $--padding-lg 2rem;
+        margin: var(--padding-lg) 2rem;
     }
 
     &__card {
+        &__company {
+            color: var(--textMain);
+        }
         &__role {
-            color: $--dark-subText;
+            color: var(--text);
             font-weight: 400;
-            margin-bottom: $--padding-sm;
+            margin-bottom: var(--padding-sm);
         }
         &__duration {
-            color: $--dark-lightElement;
+            color: var(--subText);
         }
     }
 }

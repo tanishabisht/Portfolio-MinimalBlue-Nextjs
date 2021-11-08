@@ -1,19 +1,21 @@
-$circle-size: 70rem;
+:root {
+    --circle-size: 70rem;
+}
 
 .circleBg {    
     position: absolute;
     bottom: 30%;
     right: 30%;
-    width: $circle-size;
-    height: $circle-size;
-    background-color: $--dark-lightElement;
+    width: var(--circle-size);
+    height: var(--circle-size);
+    background-color: var(--circle-color);
     z-index: -1;
     border-radius: 50%;
 }
 
 .layoutContainer {
-    padding: 0 $--padding-lg;
+    padding: 0 var(--padding-lg);
     @media (max-width: 700px) {
-        padding: 0 $--padding-sm;
+        padding: 0 var(--padding-sm);
     }
 }

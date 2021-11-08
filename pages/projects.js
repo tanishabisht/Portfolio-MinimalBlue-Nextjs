@@ -8,7 +8,7 @@ const Projects = () => {
 
     return (
         <div className="container">
-            <h1 className="header">Some more projects</h1>
+            <h1 className="header projHeader">Some more projects</h1>
 
             <div className="categories">
                 {Object.keys(allOtherProjects).map((e,k) => (

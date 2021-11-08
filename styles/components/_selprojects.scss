@@ -1,24 +1,31 @@
+.selHeader {
+    color: var(--heading-first) !important;
+}
+
 .selCard {
-    background-color: $--dark-darkElement;
+    background-color: var(--cardBg);
     margin: 2rem 0;
     padding: 3rem;
-    border-radius: $--card-radius;
+    border-radius: var(--card-radius);
     background-repeat: no-repeat;
     &--one {
-        background-image: url("../../public/proj-lunarOps.png");
+        background-image: var(--background-image-1);
         background-position: 300px 50%;
         background-size: 600px;
     }
     &--two {
-        background-image: url("../../public/proj-eureka.png");
+        background-image: var(--background-image-2);
         background-position: 300px 70%;
         background-size: 600px;
+    }
+    &__heading {
+        color: var(--cardHeading);
     }
     &__number {
         font-size: 5rem;
         font-weight: 700;
         margin-bottom: 3rem;
-        color: $--dark-lightElement;
+        color: var(--cardText);
         transition: transform 200ms ease 0s;
         transform: translateX(0px) translateY(0px) translateZ(0px);
     }
@@ -27,7 +34,7 @@
         transform: translateX(0px) translateY(0px) translateZ(0px);
         &__links a {
             margin-right: 1rem;
-            color: $--dark-lightElement;
+            color: var(--cardText);
         }
     }
     transition: all 0.2s ease 0s, transform 200ms ease 0s;

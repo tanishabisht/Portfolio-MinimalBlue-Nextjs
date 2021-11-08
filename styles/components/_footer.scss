@@ -4,7 +4,7 @@
     align-items: center;
 
     &__credits {
-        color: $--icon-dark-color; 
+        color: var(--icon-color); 
     }
 
     &__socialHandlers {
@@ -13,17 +13,16 @@
             list-style: none;
             a {
                 position: relative;
-                width:$--icon-bg-size;
-                height:$--icon-bg-size;
+                width:var(--icon-bg-size);
+                height:var(--icon-bg-size);
                 display:block;
                 text-align:center;
                 margin:0 0.6rem;
                 border-radius: 50%;
-                padding: $--circle-padding;
+                padding: var(--circle-padding);
                 box-sizing: border-box;
                 text-decoration:none;
-                box-shadow: 0 10px 15px rgba(0,0,0,0.2);
-                background: linear-gradient(0deg, $--icon-dark-bg-2, $--icon-dark-bg-1);
+                box-shadow: var(--box-shadow);
                 transition: .5s;
     
                 &:hover {
@@ -35,11 +34,10 @@
                     width: 100%;
                     height:100%;
                     display:block;
-                    background: linear-gradient(0deg, $--icon-dark-bg-1, $--icon-dark-bg-2);
                     border-radius: 50%;
-                    line-height: calc($--icon-bg-size - $--circle-padding);
-                    font-size:$--icon-size;
-                    color: $--icon-dark-color;
+                    line-height: calc(var(--icon-bg-size) - var(--circle-padding));
+                    font-size:var(--icon-size);
+                    color: var(--icon-color);
                     transition: .5s;
                 }
             }
@@ -47,16 +45,16 @@
     
     
             &:nth-child(1) a:hover i {
-                color: $--github;
+                color: var(--github);
             }
             &:nth-child(2) a:hover i {
-                color: $--insta;
+                color: var(--insta);
             }
             &:nth-child(3) a:hover i {
-                color: $--linkedIn;
+                color: var(--linkedIn);
             }
             &:nth-child(4) a:hover i {
-                color: $--mail;
+                color: var(--mail);
             }
     
         }
