@@ -1,21 +1,38 @@
-const heroContent = [
-    'I am Tanisha, and I am a software developer from India. I craft pleasing and functional web experiences.',
-    'I love to learn and implement anything and everything that intrigues my interest, from UI UX, web and app development to data science and machine learning (thanking my quick learning skills)',
-    'I am passionate about working and building inclusive communities and collaboration with like minded people is something that drives me, as we get to learn a lot and create beautiful memories along the journey.'
-]
-
 const stacks = [
-    {name:"javascript", icon:"js-square", isFav:true}, {name:"python", icon:"python", isFav:true}, {name:"cpp", icon:"", isFav:false}, {name:"c", icon:"", isFav:false}, 
-    {name:"git", icon:"git", isFav:true}, {name:"github", icon:"github", isFav:true}, {name:"bitbucket", icon:"bitbucket", isFav:false}, {name:"linux", icon:"linux", isFav:false},
-    {name:"nodejs", icon:"node", isFav:true},
-    {name:"expressjs", icon:"", isFav:true}, {name:"flask", icon:"", isFav:false}, {name:"firebase", icon:"", isFav:false}, {name:"mongodb", icon:"", isFav:true}, {name:"mongoose", icon:"", isFav:true}, 
-    {name:"reactjs", icon:"react", isFav:true},
-    {name:"nextjs", icon:"", isFav:false}, {name:"angular", icon:"angular", isFav:false}, {name:"hooks", icon:"", isFav:true},
-    {name:"html", icon:"html5", isFav:true}, {name:"css", icon:"css3-alt", isFav:true}, {name:"css modules", icon:"", isFav:false}, {name:"sass", icon:"sass", isFav:false}, 
-    {name:"styled components", icon:""}, {name:"bootstrap", icon:"bootstrap"}, {name:"materialize", icon:""}, {name:"tailwind css", icon:""},    
-    {name:"beautiful soup", icon:"", isFav:false}, {name:"selenium", icon:"", isFav:false}, {name:"tkinter", icon:"", isFav:false}, 
-    {name:"vscode", icon:"", isFav:true},
-    {name:"xd", icon:"", isFav:true}, {name:"figma", icon:"figma", isFav:false}, {name:"photoshop", icon:"", isFav:false}
+    {name:"javascript", icon:"/icon-js.png", isFav:true}, 
+    {name:"python", icon:"/icon-python.png", isFav:true}, 
+    {name:"cpp", icon:"/icon-cpp.png", isFav:false}, 
+
+    {name:"git", icon:"/icon-git.png", isFav:true}, 
+    {name:"github", icon:"/icon-github.png", isFav:true}, 
+    {name:"bitbucket", icon:"/icon-bitbucket.png", isFav:false}, 
+    {name:"linux", icon:"/icon-linux.png", isFav:false},
+
+    {name:"nodejs", icon:"/icon-nodejs.png", isFav:true},
+    {name:"expressjs", icon:"/icon-express.png", isFav:true}, 
+    {name:"flask", icon:"/icon-flask.png", isFav:false}, 
+    {name:"mongodb", icon:"/icon-mongodb.png", isFav:true}, 
+
+    {name:"react js", icon:"/icon-react.png", isFav:true}, 
+    {name:"redux", icon:"/icon-redux.png", isFav:true},
+
+    {name:"nextjs", icon:"/icon-nextjs.png", isFav:false}, 
+    {name:"angular", icon:"/icon-angular.png", isFav:false}, 
+
+    {name:"html", icon:"/icon-html.png", isFav:true}, 
+    {name:"css", icon:"/icon-css.png", isFav:true}, 
+    {name:"sass", icon:"/icon-sass.png", isFav:false}, 
+
+    {name:"bootstrap", icon:"/icon-bootstrap.png"}, 
+    {name:"material ui", icon:"/icon-materialui.png"}, 
+    {name:"tailwind css", icon:"/icon-tailwind.png"},  
+
+    {name:"selenium", icon:"/icon-selenium.png", isFav:false}, 
+    {name:"vscode", icon:"/icon-vscode.png", isFav:true},
+
+    {name:"xd", icon:"/icon-xd.png", isFav:true}, 
+    {name:"figma", icon:"/icon-figma.png", isFav:false}, 
+    {name:"photoshop", icon:"/icon-ps.png", isFav:false}
 ]
 
 const techTopics = [
@@ -40,4 +57,4 @@ const socialLinks = [
     {to:'instagram', link:'https://www.instagram.com/tanisha.bisht_/'},
 ]
 
-export {heroContent, stacks, techTopics, experience, socialLinks}
+export { stacks, techTopics, experience, socialLinks}

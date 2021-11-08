@@ -14,8 +14,14 @@
 }
 
 .layoutContainer {
-    padding: 0 var(--padding-lg);
+    padding: 0 10rem;
+    @media (max-width: 1250px) {
+        padding: 0 3rem;
+    }
+    @media (max-width: 1000px) {
+        padding: 0 2rem;
+    }
     @media (max-width: 700px) {
-        padding: 0 var(--padding-sm);
+        padding: 0 1rem;
     }
 }
