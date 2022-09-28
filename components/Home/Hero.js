@@ -2,6 +2,10 @@ import Image from "next/image";
 import { useTheme } from "next-themes";
 import { useRouter } from "next/router";
 
+const linkedInLink = "https://www.linkedin.com/in/tanisha-bisht/";
+const resumeLink =
+  "https://doc-0o-bc-apps-viewer.googleusercontent.com/viewer/secure/pdf/acd1l0f3ktghtilmj66vapd98d1n2kh6/1fl3ta1h237qlr3t65k6du7clm3aoj9d/1664393325000/drive/17114764929517559294/ACFrOgAe8-HaE4MwmtMo7rosqNo3dvzbPThTGsXLHp8PWyIAbAN2UA2pA7biHJgenCKulVvizcePm8j_JQ4LwYyXJQcuHXJpQBJZvMeSEzZD9mmGWZMCCrUp4Y5cnOxVpoARUzgz-IYg-n1A5sD4?print=true";
+
 const Hero = () => {
   const { theme, setTheme } = useTheme();
   const router = useRouter();
@@ -16,25 +20,12 @@ const Hero = () => {
           experiences"
         </p>
         <div className="contentCol__btns">
-          <button
-            className="contentCol__btns__regular"
-            onClick={() =>
-              router.push(
-                "https://doc-0o-bc-apps-viewer.googleusercontent.com/viewer/secure/pdf/acd1l0f3ktghtilmj66vapd98d1n2kh6/1fl3ta1h237qlr3t65k6du7clm3aoj9d/1664393325000/drive/17114764929517559294/ACFrOgAe8-HaE4MwmtMo7rosqNo3dvzbPThTGsXLHp8PWyIAbAN2UA2pA7biHJgenCKulVvizcePm8j_JQ4LwYyXJQcuHXJpQBJZvMeSEzZD9mmGWZMCCrUp4Y5cnOxVpoARUzgz-IYg-n1A5sD4?print=true"
-              )
-            }
-          >
-            See my Resume
-          </button>
-
-          <button
-            className="contentCol__btns__outline"
-            onClick={() =>
-              router.push("https://www.linkedin.com/in/tanisha-bisht/")
-            }
-          >
-            Contact Me
-          </button>
+          <a target="_blank" href={resumeLink}>
+            <button className="contentCol__btns__regular">See my Resume</button>
+          </a>
+          <a target="_blank" href={linkedInLink}>
+            <button className="contentCol__btns__outline">Contact Me</button>
+          </a>
         </div>
       </div>
       <div className="imageCol">
