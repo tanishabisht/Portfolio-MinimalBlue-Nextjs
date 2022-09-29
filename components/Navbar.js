@@ -28,6 +28,9 @@ const Navbar = () => {
       <Link href="/works">
         <a>works</a>
       </Link>
+      <Link href="/photography">
+        <a>photography</a>
+      </Link>
       {/* <Link href="/writings">
         <a>writings</a>
       </Link> */}

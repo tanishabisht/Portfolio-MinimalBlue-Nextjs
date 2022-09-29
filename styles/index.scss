@@ -1,15 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
-
-
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 @import "abstract/variables";
 @import "abstract/colors";
 
-
-
 @import "base/reset";
-
-
 
 @import "components/footer";
 @import "components/navbar";
@@ -22,14 +16,11 @@
 @import "components/selprojects";
 @import "components/process";
 
-
-
 @import "pages/404";
 @import "pages/layout";
 @import "pages/projects";
+@import "pages/insta";
 @import "pages/writings";
 @import "pages/blog";
-
-
 
 @import "utilities/common";
