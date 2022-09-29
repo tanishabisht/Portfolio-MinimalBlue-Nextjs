@@ -4,7 +4,9 @@ const Experience = () => {
   return (
     <section className="container">
       <h1 className="header">My work experience</h1>
-      <p>From Campus Clubs to Startups and Open Source Communities</p>
+      <p className="subContent">
+        From Campus Clubs to Startups and Open Source Communities
+      </p>
       <div className="expGrid">
         {experience.map((e, k) => (
           <div className="expGrid__card" key={k}>

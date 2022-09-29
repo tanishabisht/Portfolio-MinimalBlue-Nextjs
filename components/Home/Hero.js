@@ -15,7 +15,7 @@ const Hero = () => {
       <div className="contentCol">
         <p className="contentCol__subheading">Who am I?</p>
         <h1 className="contentCol__name">Tanisha Bisht</h1>
-        <p>
+        <p className="subContent">
           "Software developer from India who crafts pleasing and functional web
           experiences"
         </p>
