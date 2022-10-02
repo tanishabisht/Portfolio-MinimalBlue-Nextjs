@@ -4,7 +4,7 @@ import { useRouter } from "next/router";
 
 const linkedInLink = "https://www.linkedin.com/in/tanisha-bisht/";
 const resumeLink =
-  "https://doc-0o-bc-apps-viewer.googleusercontent.com/viewer/secure/pdf/acd1l0f3ktghtilmj66vapd98d1n2kh6/1fl3ta1h237qlr3t65k6du7clm3aoj9d/1664393325000/drive/17114764929517559294/ACFrOgAe8-HaE4MwmtMo7rosqNo3dvzbPThTGsXLHp8PWyIAbAN2UA2pA7biHJgenCKulVvizcePm8j_JQ4LwYyXJQcuHXJpQBJZvMeSEzZD9mmGWZMCCrUp4Y5cnOxVpoARUzgz-IYg-n1A5sD4?print=true";
+  "https://drive.google.com/file/d/1lLArp7ot6NKd0HvBVl1dZlty2H7BRpBY/view?usp=sharing";
 
 const Hero = () => {
   const { theme, setTheme } = useTheme();
