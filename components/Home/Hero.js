@@ -30,9 +30,9 @@ const Hero = () => {
       </div>
       <div className="imageCol">
         {theme === "light" ? (
-          <Image src="/light_me.png" width={420} height={585} />
+          <Image src="/light_me.png" width={420} height={630} />
         ) : (
-          <Image src="/dark_me.png" width={420} height={585} />
+          <Image src="/dark_me.png" width={420} height={630} />
         )}
       </div>
     </section>

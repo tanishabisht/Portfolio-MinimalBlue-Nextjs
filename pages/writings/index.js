@@ -21,7 +21,7 @@ const Writing = () => {
           attempt to write down a roadmap I wish I had along my journey.
         </p>
 
-        <div className="categories">
+        {/* <div className="categories">
           {Object.keys(writingContent).map((e, k) => (
             <span
               className={`categories__category ${
@@ -33,7 +33,7 @@ const Writing = () => {
               {e}
             </span>
           ))}
-        </div>
+        </div> */}
 
         {writingContent[category].map((e, k) => (
           <div className="writingBlog" key={k}>
