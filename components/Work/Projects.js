@@ -1,4 +1,40 @@
-import { top6Projects } from '../../content/projects'
+const top6Projects = [
+    {
+        name:'Jishnu Portfolio',
+        desc:'Portfolio website with parallax effect for a client',
+        ghLink:'https://github.com/tanishabisht/JishnuGoyal',
+        stacks:['reactjs', 'gh-pages', 'parallax-effect', 'css-modules', 'emailjs'],
+        isFav: true
+    },
+    {
+        name:'E-Commerce APIs',
+        desc:'Creating E-Commerce APIs using NodeJS ',
+        ghLink:'https://github.com/tanishabisht/APIs-NodeJS-E-Commerce',
+        stacks:['nodejs', 'express', 'mongoose', 'nodemon', 'express-jwt', 'jsonwebtoken', 'morgan'],
+        isFav: false
+    },
+    {
+        name:'SRM ELab print report',
+        desc:'Automation tool for downloading DAA reports from ELab',
+        ghLink:'https://github.com/tanishabisht/SRM-Elab-DAA-Print-Report',
+        stacks:['python', 'selenium'],
+        isFav: true
+    },
+    {
+        name:'React State Management',
+        desc:'Managing states in react locally, passing from parent to child, globally and using rest APIs',
+        ghLink:'https://github.com/tanishabisht/React-StateManagement',
+        stacks:['reactjs', 'react'],
+        isFav: true
+    },
+    {
+        name:'Angular',
+        desc:'My first angular project, documenting the resources refered to learn the basic concepts',
+        ghLink:'https://github.com/tanishabisht/MiniProj-Angular-Basics',
+        stacks:['angular', 'bootstrap'],
+        isFav: true
+    }
+]
 
 const Projects = () => {
   return (
