@@ -7,7 +7,7 @@ const About = () => {
             Things I have explored ...
           </p>
           <h1>
-            UI . <span>UX . web dev .</span> data science . ML .{" "}
+            UI . <span>UX . web dev .</span> data science . <span>AWS .</span> ML .{" "}
             <span>open source ...</span> copy paste :p
           </h1>
         </div>
@@ -15,7 +15,7 @@ const About = () => {
           <p className="aboutContainer__col__subHeading">My forte ...</p>
           <p>I build website solutions</p>
           <h1>
-            <span>MERN Stack .</span> Open Source
+            <span>MERN Stack .</span> Open Source . Cloud Computing
           </h1>
         </div>
       </div>
@@ -23,8 +23,7 @@ const About = () => {
         <div className="aboutContainer__col">
           <p className="aboutContainer__col__subHeading">What drives me?</p>
           <h1>
-            novelty . <span>working in a team .</span> creating beautiful
-            memories along the journey
+            <span>working in a team .</span> people using my products
           </h1>
         </div>
         <div className="aboutContainer__col">

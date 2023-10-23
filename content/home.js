@@ -41,7 +41,17 @@ const experience = [
   {
     company: "InSynchro",
     role: "Associate Software Developer",
-    duration: "Jun. 2020 - Present",
+    duration: "Jun. 2020 - Jun. 2023",
+  },
+  {
+    company: "CIGS Technology",
+    role: "Intern",
+    duration: "Dec. 2022 - May. 2023",
+  },
+  {
+    company: "Biocom",
+    role: "Technical Domain Head",
+    duration: "Sep. 2021 - Jan. 2023",
   },
   { company: "ClayStack", role: "Intern", duration: "Dec. 2021 - Jan. 2022" },
   {
@@ -51,14 +61,8 @@ const experience = [
   },
   { company: "TNAU", role: "Project Intern", duration: "10 - 16 Sep. 2021" },
   {
-    company: "Biocom",
-    role: "Technical Domain Head",
-    duration: "Sep. 2021 - Present",
-  },
-  { company: "Next Tech Lab", role: "Member", duration: "Feb. 2020 - Present" },
-  {
     company: "InSynchro",
-    role: "Intern Software Developer",
+    role: "Internr",
     duration: "Mar. 2020 - May 2020",
   },
 ];
