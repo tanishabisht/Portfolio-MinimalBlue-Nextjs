@@ -1,4 +1,4 @@
-# My Personal Portfolio
+# My Personal Portfolio Website
 
 This is my take on Minimal Portfolio website.
 
