@@ -1,4 +1,3 @@
-
 const Footer = () => {
     return (
         <footer className="footer">
@@ -7,7 +6,6 @@ const Footer = () => {
                 <li><a target="_blank" href="https://github.com/tanishabisht"><i className="fab fa-github" aria-hidden="true"></i></a></li>
                 <li><a target="_blank" href="https://www.instagram.com/tanisha.bisht_/"><i className="fab fa-instagram" aria-hidden="true"></i></a></li>
                 <li><a target="_blank" href="https://www.linkedin.com/in/tanisha-bisht/"><i className="fab fa-linkedin" aria-hidden="true"></i></a></li>
-                <li><a target="_blank" href="mailto:agamyatani@gmail.com"><i className="fab fa-google-plus-g" aria-hidden="true"></i></a></li>
             </ul>
         </footer>
     )

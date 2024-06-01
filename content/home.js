@@ -1,4 +1,49 @@
-const stacks = [
+// import me from '../public/light_me.png'
+
+// ##################
+// ## HERO SECTION ##
+// ##################
+
+export const name = "Tanisha Bisht"
+
+export const desc = '"A software developer building scalable web magic with a passion for crafting user-centric products"'
+
+export const subDesc = <p>Currently pursuing her master's in Computer Science at <b>Columbia University</b> in the heart of NYC!</p>
+
+export const ctaPrimaryBtn = {
+  text: 'My Projects',
+  href: '/projects'
+}
+
+export const ctaSecondaryBtn = {
+  text: 'Contact Me',
+  href: 'https://www.linkedin.com/in/tanisha-bisht/'
+}
+
+export const linkedInLink = "https://www.linkedin.com/in/tanisha-bisht/";
+
+// export const myImage = me;
+
+// ###################
+// ## ABOUT SECTION ##
+// ###################
+
+export const aboutGridContent = [
+  {
+    left: {heading: 'Fields I have explored ...', text: <h1>UI . <span>UX . web dev .</span> data science . <span>AWS .</span> ML . <span>open source ...</span> copy paste :p</h1>},
+    right: {heading: 'My forte ...', text: <h1><span>MERN Stack .</span> Cloud Computing</h1>}
+  },
+  {
+    left: {heading: 'What drives me?', text: <h1><span>working in a team .</span> people using my products</h1>},
+    right: {heading: 'My qualities ...', text: <h1>quick learner . clean work . collaborative . novelty seeker</h1>}
+  }
+]
+
+// ###################
+// ## SKILL SECTION ##
+// ###################
+
+export const allSkills = [
   { name: "javascript", icon: "/icon-js.png", isFav: true },
   { name: "python", icon: "/icon-python.png", isFav: true },
   { name: "cpp", icon: "/icon-cpp.png", isFav: false },
@@ -35,9 +80,11 @@ const stacks = [
   { name: "photoshop", icon: "/icon-ps.png", isFav: false },
 ];
 
-const techTopics = ["computer networking", "UX"];
+// ########################
+// ## EXPERIENCE SECTION ##
+// ########################
 
-const experience = [
+export const allExperiences = [
   {
     company: "InSynchro",
     role: "Associate Software Developer",
@@ -67,16 +114,12 @@ const experience = [
   },
 ];
 
-const socialLinks = [
+// ####################
+// ## FOOTER SECTION ##
+// ####################
+
+export const socialLinks = [
   { to: "github", link: "https://github.com/tanishabisht" },
   { to: "linkedin", link: "https://www.linkedin.com/in/tanisha-bisht/" },
-  { to: "medium", link: "https://medium.com/@tanisha.bisht2020" },
-  {
-    to: "stackoverflow",
-    link: "https://stackoverflow.com/users/15961606/tanisha-bisht",
-  },
-  // {to:'npx', link:''},
-  { to: "instagram", link: "https://www.instagram.com/tanisha.bisht_/" },
+  { to: "instagram", link: "https://www.instagram.com/photonmadnesss/" },
 ];
-
-export { stacks, techTopics, experience, socialLinks };
