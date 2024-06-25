@@ -1,7 +1,4 @@
-# Personal portfolio website #1 - NextJS
-
-This is my take on Minimal Portfolio website.
-Link to the portfolio: https://portfolio-black-chi.vercel.app/
+# Personal portfolio website (Minimal Blue Theme) - NextJS
 
 ![Personal portfolio template](demo/demo.gif)
 
